@@ -4307,11 +4307,11 @@ html {
 
 .email__container {
   text-align: center; }
-  .email__container p {
+  .email__container a {
     font-size: 30px;
     color: #fff; }
     @media only screen and (max-width: 657px) {
-      .email__container p {
+      .email__container a {
         font-size: 20px; } }
 
 .solution {
@@ -4521,32 +4521,43 @@ html {
 .footer {
   background: url(../images/bg-footer.jpg) no-repeat center center/cover; }
 
-.examples__item {
-  width: 25%;
-  padding: 0 15px; }
-  @media only screen and (max-width: 1009px) {
-    .examples__item {
-      width: 33.3%; } }
-  @media only screen and (max-width: 785px) {
-    .examples__item {
-      width: 50%; } }
-  @media only screen and (max-width: 497px) {
-    .examples__item {
-      width: 100%; } }
-
-.examples__title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between; }
-
-.examples__text {
-  text-align: justify; }
-
-.examples__img-wrapper img {
-  width: 100%; }
+.examples {
+  font-family: 'Open Sans', sans-serif; }
+  .examples__item {
+    width: 25%;
+    padding: 10px 15px; }
+    @media only screen and (max-width: 1009px) {
+      .examples__item {
+        width: 33.3%; } }
+    @media only screen and (max-width: 785px) {
+      .examples__item {
+        width: 50%; } }
+    @media only screen and (max-width: 497px) {
+      .examples__item {
+        width: 100%; } }
+  .examples__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background-color: #32ba30;
+    font-weight: bold;
+    padding: 20px 5px;
+    color: #fff;
+    font-style: italic; }
+  .examples__text {
+    text-align: justify; }
+  .examples__img-wrapper img {
+    width: 100%;
+    display: block; }
+  .examples__link {
+    display: block;
+    background-color: #32ba30;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center; }
 
 .reviews {
   width: 150px;

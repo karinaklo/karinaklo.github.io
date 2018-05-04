@@ -17,9 +17,16 @@ $(document).ready(function() {
            top = $(id).offset().top;
        $('body,html').animate({scrollTop: top}, 1500);
    });
-   $('.examples__grid').masonry({
-      itemSelector: '.examples__item',
-      // horizontalOrder: true
+   // $('.examples__grid').masonry({
+   //    itemSelector: '.examples__item',
+   //    // horizontalOrder: true
+   //  });
+   var $container = $('.examples__grid');
+    $container.imagesLoaded( function() {
+        $container.masonry({
+            itemSelector: '.examples__item',
+        });
+        $container.addClass('loaded');
     });
 })
 
