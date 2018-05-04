@@ -4534,5 +4534,28 @@ html {
     .examples__item {
       width: 100%; } }
 
+.examples__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
 .examples__text {
   text-align: justify; }
+
+.examples__img-wrapper img {
+  width: 100%; }
+
+.reviews {
+  width: 150px;
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+  z-index: 100000; }
+  .reviews img {
+    width: 100%; }
+  @media only screen and (max-width: 785px) {
+    .reviews {
+      width: 110px; } }

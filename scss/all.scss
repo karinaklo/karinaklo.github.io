@@ -322,7 +322,35 @@ html {
 			width: 100%;
 		}
 	}
+	&__title {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__name {
+
+	}
+	&__age {
+
+	}
 	&__text	{
 		text-align: justify;
+	}
+	&__img-wrapper {
+		img {
+			width: 100%;
+		}
+	}
+}
+.reviews {
+	width: 150px;
+	position: fixed;
+	bottom:10%;
+	right:5%;
+	z-index:100000;
+	img {
+		width: 100%;
+	}
+	@include to768 {
+		width: 110px;
 	}
 }
